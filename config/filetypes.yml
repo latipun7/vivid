@@ -69,8 +69,11 @@ text:
       - .cfg
       - .conf
       - .config
+      - .hjson
       - .ini
       - .json
+      - .json5
+      - .jsonc
       - .rc
       - .tml
       - .toml
@@ -201,9 +204,6 @@ programming:
     emacs: [.elc, .eln]
     erlang: [.erl]
     fortran: [.f, .for]
-    elixir: [.ex, .exs]
-    elm: [.elm]
-    erlang: [.erl]
     fsharp: [.fs, .fsi, .fsx]
     gcode: [.gcode]
     go: [.go]
